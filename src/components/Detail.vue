@@ -1,6 +1,6 @@
 <template>
 	<div class="detail">
-	<van-nav-bar class="nav-text" title="菜谱详情" left-text="返回" left-arrow
+	<van-nav-bar class="nav-text" title="菜谱详情" fixed left-text="返回" left-arrow
 @click-left="onClickLeft" @click-right="onClickRight">
 <van-icon ref="color" class="color" name="like" color="#DFC64B" slot="right" />
 	</van-nav-bar>

@@ -44,7 +44,7 @@
 				<div class="abstract">{{meun.intro}}</div>
 			</van-col>
 		</van-row>-->
-		<van-tabs v-model="active" :swipeable="true" ref="vtabs">
+		<van-tabs v-model="active" sticky :swipeable="true" ref="vtabs">
 			<van-tab title="早点">
 				<p>1</p>
 				<van-row>
